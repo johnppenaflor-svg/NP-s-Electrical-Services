@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Gallery & Portfolio | NP's Electrical Services</title>
+  <meta name="description" content="View completed projects by NP's Electrical Services: Motor rewinding, electrical switchboards, FDAS fire alarms, CCTV installations, and CAD engineering designs.">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              yellow: '#F59E0B',
+              gold: '#FBBF24',
+              dark: '#0B0F19',
+              darker: '#06090F',
+              slate: '#131B2E',
+              card: '#182238',
+              border: '#24324D'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #06090F; color: #F3F4F6; }
+    h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
+    .yellow-gradient { background: linear-gradient(135deg, #F59E0B 0%, #FBBF24 50%, #D97706 100%); }
+  </style>
+</head>
+<body class="bg-brand-darker text-gray-100">
+
+  <!-- Top Bar -->
+  <div class="bg-brand-dark border-b border-brand-border py-2 px-4 text-xs font-medium">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3 text-brand-gold font-bold">
+        <i data-lucide="shield-check" class="w-4 h-4 text-brand-yellow"></i>
+        <span>Project Work Showcase • DTI & BIR Registered</span>
+      </div>
+      <a href="tel:09102117985" class="text-white hover:text-brand-yellow font-bold flex items-center">
+        <i data-lucide="phone" class="w-3.5 h-3.5 mr-1 text-brand-yellow"></i> 09102117985
+      </a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="border-b border-brand-border bg-brand-dark/95 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-lg yellow-gradient flex items-center justify-center font-black text-black text-xl">NP⚡</div>
+        <div>
+          <div class="text-lg font-black text-white">NP's ELECTRICAL SERVICES</div>
+          <div class="text-[10px] text-gray-400 uppercase tracking-widest">Project Portfolio</div>
+        </div>
+      </a>
+      <div class="hidden md:flex items-center space-x-6 text-sm font-medium">
+        <a href="index.html" class="text-gray-300 hover:text-brand-yellow">Home</a>
+        <a href="services.html" class="text-gray-300 hover:text-brand-yellow">Services</a>
+        <a href="projects.html" class="text-brand-yellow font-bold">Projects</a>
+        <a href="about.html" class="text-gray-300 hover:text-brand-yellow">About</a>
+        <a href="quotation.html" class="px-4 py-2 rounded-lg yellow-gradient text-black font-bold text-xs uppercase">Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-16 md:py-20 px-4 bg-brand-dark border-b border-brand-border text-center">
+    <div class="max-w-3xl mx-auto space-y-4">
+      <span class="text-brand-yellow text-xs font-bold uppercase tracking-widest">Track Record of Excellence</span>
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">
+        OUR COMPLETED <span class="text-transparent bg-clip-text yellow-gradient">PROJECTS & WORK</span>
+      </h1>
+      <p class="text-sm sm:text-base text-gray-300">
+        Quality workmanship and powerful results across industrial facilities, commercial complexes, and residential developments.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <main class="max-w-6xl mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Project 1: Motor Rewinding -->
+      <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-yellow transition">
+        <div class="h-48 bg-brand-slate flex flex-col items-center justify-center p-6 text-center border-b border-brand-border group-hover:bg-brand-card transition">
+          <i data-lucide="disc" class="w-12 h-12 text-brand-yellow mb-2"></i>
+          <span class="text-xs font-mono text-gray-400">Industrial Workshop</span>
+        </div>
+        <div class="p-6 space-y-2">
+          <span class="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded bg-amber-500/20 text-amber-300">Motor Engineering</span>
+          <h3 class="text-lg font-bold text-white">75 HP 3-Phase Induction Stator Rewind</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Full copper strip, bake oven varnish curing, and dynamic load testing for a manufacturing plant. Restored within 48 hours.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 2: High Voltage Termination -->
+      <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-yellow transition">
+        <div class="h-48 bg-brand-slate flex flex-col items-center justify-center p-6 text-center border-b border-brand-border group-hover:bg-brand-card transition">
+          <i data-lucide="cable" class="w-12 h-12 text-brand-yellow mb-2"></i>
+          <span class="text-xs font-mono text-gray-400">Substation & Switchgear</span>
+        </div>
+        <div class="p-6 space-y-2">
+          <span class="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded bg-blue-500/20 text-blue-300">HV Termination</span>
+          <h3 class="text-lg font-bold text-white">13.8kV Cold Shrink Termination</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Stress relief termination and busbar connections on incoming transformer feeds with Hi-Pot pass certification.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 3: FDAS Fire Detection -->
+      <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-yellow transition">
+        <div class="h-48 bg-brand-slate flex flex-col items-center justify-center p-6 text-center border-b border-brand-border group-hover:bg-brand-card transition">
+          <i data-lucide="bell-ring" class="w-12 h-12 text-red-400 mb-2"></i>
+          <span class="text-xs font-mono text-gray-400">Commercial Facility</span>
+        </div>
+        <div class="p-6 space-y-2">
+          <span class="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded bg-red-500/20 text-red-300">Fire Safety</span>
+          <h3 class="text-lg font-bold text-white">Addressable FDAS Commercial Fit-Out</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Installation of 84 addressable optical smoke detectors, manual stations, and BFP fire safety inspection clearance.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 4: Electrical Sign & Seal -->
+      <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-yellow transition">
+        <div class="h-48 bg-brand-slate flex flex-col items-center justify-center p-6 text-center border-b border-brand-border group-hover:bg-brand-card transition">
+          <i data-lucide="file-check-2" class="w-12 h-12 text-brand-yellow mb-2"></i>
+          <span class="text-xs font-mono text-gray-400">Architectural Drafting</span>
+        </div>
+        <div class="p-6 space-y-2">
+          <span class="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300">Engineering</span>
+          <h3 class="text-lg font-bold text-white">PEE Electrical Design & As-Built Plans</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Complete electrical load computation and licensed PEE sign and seal for a 3-storey commercial building permit.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 5: CCTV Security System -->
+      <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-yellow transition">
+        <div class="h-48 bg-brand-slate flex flex-col items-center justify-center p-6 text-center border-b border-brand-border group-hover:bg-brand-card transition">
+          <i data-lucide="video" class="w-12 h-12 text-brand-yellow mb-2"></i>
+          <span class="text-xs font-mono text-gray-400">Warehouse Complex</span>
+        </div>
+        <div class="p-6 space-y-2">
+          <span class="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded bg-purple-500/20 text-purple-300">Security</span>
+          <h3 class="text-lg font-bold text-white">32-Channel IP CCTV Network</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Structured PoE cabling, perimeter night-vision cameras, and central monitoring station with mobile remote viewing.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 6: Generator Overhaul -->
+      <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-yellow transition">
+        <div class="h-48 bg-brand-slate flex flex-col items-center justify-center p-6 text-center border-b border-brand-border group-hover:bg-brand-card transition">
+          <i data-lucide="gauge" class="w-12 h-12 text-amber-400 mb-2"></i>
+          <span class="text-xs font-mono text-gray-400">Standby Power</span>
+        </div>
+        <div class="p-6 space-y-2">
+          <span class="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded bg-amber-500/20 text-amber-300">Generators</span>
+          <h3 class="text-lg font-bold text-white">250 kVA Generator Stator Rewind</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Complete rewinding of exciter fields, main stator, AVR calibrating, and resistive load bank testing.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Call to action -->
+    <div class="text-center mt-16">
+      <a href="contact.html" class="inline-flex items-center px-8 py-4 rounded-xl yellow-gradient text-black font-extrabold text-sm uppercase tracking-wider shadow-lg">
+        ⚡ Discuss Your Project Requirements With Us
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-xs text-gray-500 border-t border-brand-border">
+    <p>NP's ELECTRICAL SERVICES • 09102117985 • nps.electricalservices@gmail.com</p>
+    <p class="mt-1 text-brand-gold">DTI & BIR Registered (Non-VAT)</p>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>

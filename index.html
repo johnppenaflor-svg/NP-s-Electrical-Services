@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NP's Electrical Services | Powering Solutions. Delivering Excellence.</title>
+  <meta name="description" content="Certified Electrical Engineering, Industrial Motor Rewinding, Electrical Design & Sign and Seal, FDAS, CCTV, and Installation across the Philippines. DTI & BIR Registered.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              yellow: '#F59E0B',
+              gold: '#FBBF24',
+              amber: '#D97706',
+              dark: '#0B0F19',
+              darker: '#06090F',
+              slate: '#131B2E',
+              card: '#182238',
+              border: '#24324D',
+              accent: '#38BDF8'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            heading: ['Montserrat', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #06090F; color: #F3F4F6; }
+    h1, h2, h3, h4, .brand-font { font-family: 'Montserrat', sans-serif; }
+    .yellow-gradient { background: linear-gradient(135deg, #F59E0B 0%, #FBBF24 50%, #D97706 100%); }
+    .card-border-glow:hover { border-color: rgba(245, 158, 11, 0.6); box-shadow: 0 0 25px rgba(245, 158, 11, 0.15); }
+    .blueprint-grid { background-image: radial-gradient(rgba(245, 158, 11, 0.08) 1px, transparent 1px); background-size: 24px 24px; }
+  </style>
+</head>
+<body class="bg-brand-darker text-gray-100 antialiased selection:bg-brand-yellow selection:text-black">
+
+  <!-- Top Announcement / Credibility Bar -->
+  <div class="bg-brand-dark border-b border-brand-border/60 py-2 px-4 text-xs font-medium text-gray-300">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center space-x-3">
+        <span class="inline-flex items-center text-brand-gold font-bold">
+          <i data-lucide="shield-check" class="w-4 h-4 mr-1 text-brand-yellow"></i>
+          DTI & BIR Registered (Non-VAT)
+        </span>
+        <span class="hidden md:inline text-gray-500">•</span>
+        <span class="hidden md:inline text-gray-400">Serving Residential, Commercial & Industrial Facilities</span>
+      </div>
+      <div class="flex items-center space-x-5">
+        <a href="tel:09102117985" class="hover:text-brand-yellow flex items-center transition font-bold text-white tracking-wider">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 mr-1 text-brand-yellow"></i> 09102117985
+        </a>
+        <a href="mailto:nps.electricalservices@gmail.com" class="hover:text-brand-yellow hidden sm:flex items-center transition">
+          <i data-lucide="mail" class="w-3.5 h-3.5 mr-1 text-brand-yellow"></i> nps.electricalservices@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <nav class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-brand-border/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center space-x-3 group">
+          <div class="w-12 h-12 rounded-xl yellow-gradient flex items-center justify-center font-black text-black text-2xl shadow-lg shadow-brand-yellow/20 group-hover:scale-105 transition transform">
+            <span class="tracking-tighter">NP<span class="text-xs">⚡</span></span>
+          </div>
+          <div>
+            <div class="text-xl sm:text-2xl font-black tracking-tight text-white flex items-center">
+              NP's <span class="text-brand-yellow ml-1.5 text-base sm:text-lg uppercase tracking-wider font-extrabold">ELECTRICAL SERVICES</span>
+            </div>
+            <p class="text-[10px] tracking-widest uppercase text-gray-400 font-semibold">Powering Solutions • Delivering Excellence</p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="hidden xl:flex items-center space-x-6 text-sm font-medium">
+          <a href="index.html" class="text-brand-yellow font-bold">Home</a>
+          <a href="services.html" class="text-gray-300 hover:text-brand-yellow transition">All 17 Services</a>
+          <a href="industrial-motor-rewinding.html" class="text-gray-300 hover:text-brand-yellow transition">Motor Rewind</a>
+          <a href="sign-and-seal.html" class="text-gray-300 hover:text-brand-yellow transition">Sign & Seal</a>
+          <a href="fdas-firepro-security.html" class="text-gray-300 hover:text-brand-yellow transition">FDAS & FirePro</a>
+          <a href="emergency-troubleshooting.html" class="text-gray-300 hover:text-brand-yellow transition">Troubleshooting</a>
+          <a href="projects.html" class="text-gray-300 hover:text-brand-yellow transition">Projects</a>
+          <a href="about.html" class="text-gray-300 hover:text-brand-yellow transition">About Us</a>
+          <a href="contact.html" class="text-gray-300 hover:text-brand-yellow transition">Contact</a>
+        </div>
+
+        <!-- Quick Header Action Buttons -->
+        <div class="hidden sm:flex items-center space-x-3">
+          <a href="quotation.html" class="px-5 py-2.5 rounded-lg yellow-gradient text-black font-bold text-sm tracking-wide shadow-lg shadow-brand-yellow/20 hover:brightness-110 transition flex items-center">
+            <i data-lucide="zap" class="w-4 h-4 mr-1.5 fill-black"></i> Get Free Quote
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="flex xl:hidden">
+          <button id="mobile-menu-btn" class="p-2 rounded-lg bg-brand-slate text-gray-300 hover:text-brand-yellow border border-brand-border">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden xl:hidden bg-brand-darker border-b border-brand-border px-5 pt-4 pb-6 space-y-3">
+      <a href="index.html" class="block py-2 text-brand-yellow font-bold text-base">Home</a>
+      <a href="services.html" class="block py-2 text-gray-200 hover:text-brand-yellow font-medium">All 17 Core Services</a>
+      <a href="industrial-motor-rewinding.html" class="block py-2 text-gray-200 hover:text-brand-yellow font-medium">Industrial Motor Rewinding</a>
+      <a href="sign-and-seal.html" class="block py-2 text-gray-200 hover:text-brand-yellow font-medium">Electrical Sign & Seal (PEE)</a>
+      <a href="fdas-firepro-security.html" class="block py-2 text-gray-200 hover:text-brand-yellow font-medium">FDAS, FirePro & CCTV</a>
+      <a href="emergency-troubleshooting.html" class="block py-2 text-gray-200 hover:text-brand-yellow font-medium">24/7 Troubleshooting & PMS</a>
+      <a href="projects.html" class="block py-2 text-gray-200 hover:text-brand-yellow font-medium">Project Gallery</a>
+      <a href="about.html" class="block py-2 text-gray-200 hover:text-brand-yellow font-medium">About NP's</a>
+      <a href="contact.html" class="block py-2 text-gray-200 hover:text-brand-yellow font-medium">Contact & Quote Form</a>
+      <div class="pt-3">
+        <a href="tel:09102117985" class="w-full py-3 rounded-lg yellow-gradient text-black font-extrabold text-center block shadow-md">
+          ⚡ Call 09102117985 Now
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative pt-12 pb-20 md:py-28 overflow-hidden blueprint-grid">
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-brand-yellow/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-brand-yellow/10 border border-brand-yellow/30 text-brand-gold text-xs font-bold tracking-wider uppercase">
+            <span class="w-2 h-2 rounded-full bg-brand-yellow animate-ping"></span>
+            <span>Accredited Electrical Engineering & Industrial Services</span>
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl xl:text-6xl font-black text-white leading-tight tracking-tight">
+            POWERING <span class="text-transparent bg-clip-text yellow-gradient">SOLUTIONS.</span><br>
+            DELIVERING <span class="border-b-4 border-brand-yellow">EXCELLENCE.</span>
+          </h1>
+
+          <p class="text-lg sm:text-xl text-gray-300 font-normal max-w-2xl leading-relaxed">
+            Your single-source partner for <span class="text-brand-yellow font-semibold">heavy industrial motor rewinding</span>, <span class="text-brand-yellow font-semibold">PEE electrical sign & seal</span>, FDAS fire alarm systems, and 24/7 troubleshooting across the Philippines.
+          </p>
+
+          <!-- Core Values Badges (From Flyer) -->
+          <div class="flex flex-wrap justify-center lg:justify-start gap-3 pt-1">
+            <span class="inline-flex items-center px-4 py-2 rounded-lg bg-brand-slate border border-brand-border text-white text-xs font-bold tracking-wider uppercase">
+              <i data-lucide="shield" class="w-4 h-4 mr-2 text-brand-yellow"></i> SAFE
+            </span>
+            <span class="inline-flex items-center px-4 py-2 rounded-lg bg-brand-slate border border-brand-border text-white text-xs font-bold tracking-wider uppercase">
+              <i data-lucide="check-circle" class="w-4 h-4 mr-2 text-brand-yellow"></i> RELIABLE
+            </span>
+            <span class="inline-flex items-center px-4 py-2 rounded-lg bg-brand-slate border border-brand-border text-white text-xs font-bold tracking-wider uppercase">
+              <i data-lucide="cpu" class="w-4 h-4 mr-2 text-brand-yellow"></i> EFFICIENT
+            </span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+            <a href="tel:09102117985" class="w-full sm:w-auto px-8 py-4 rounded-xl yellow-gradient text-black font-black text-base shadow-xl shadow-brand-yellow/25 hover:shadow-brand-yellow/40 hover:scale-[1.02] transition flex items-center justify-center">
+              <i data-lucide="phone-outgoing" class="w-5 h-5 mr-2"></i>
+              Call: 09102117985
+            </a>
+            <a href="services.html" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-brand-card hover:bg-brand-slate border border-brand-border text-white font-bold text-base transition flex items-center justify-center hover:border-brand-yellow/50">
+              <i data-lucide="layers" class="w-5 h-5 mr-2 text-brand-yellow"></i>
+              View All 17 Services
+            </a>
+          </div>
+
+          <!-- Credibility check -->
+          <div class="pt-6 border-t border-brand-border/60 flex items-center justify-center lg:justify-start space-x-6 text-xs text-gray-400">
+            <span class="flex items-center"><i data-lucide="badge-check" class="w-4 h-4 text-emerald-400 mr-1.5"></i> DTI Registered</span>
+            <span class="flex items-center"><i data-lucide="badge-check" class="w-4 h-4 text-emerald-400 mr-1.5"></i> BIR Registered</span>
+            <span class="flex items-center"><i data-lucide="badge-check" class="w-4 h-4 text-emerald-400 mr-1.5"></i> Non-VAT Compliant</span>
+          </div>
+
+        </div>
+
+        <!-- Right Quick Request Card -->
+        <div class="lg:col-span-5 relative">
+          <div class="bg-brand-card rounded-2xl border-2 border-brand-yellow/40 p-6 shadow-2xl shadow-brand-yellow/10">
+            <div class="flex items-center justify-between border-b border-brand-border pb-3 mb-4">
+              <span class="text-xs font-mono font-bold text-brand-yellow uppercase tracking-widest">INSTANT QUOTATION</span>
+              <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-500/20 text-emerald-300 font-bold">ONLINE</span>
+            </div>
+
+            <div class="space-y-3.5">
+              <div>
+                <label class="text-xs font-bold text-gray-300 uppercase tracking-wider block mb-1">Your Name or Business</label>
+                <input type="text" id="hp-name" placeholder="e.g. Juan Dela Cruz / Industrial Plant" class="w-full bg-brand-darker border border-brand-border rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-brand-yellow">
+              </div>
+
+              <div>
+                <label class="text-xs font-bold text-gray-300 uppercase tracking-wider block mb-1">Phone Number (Required)</label>
+                <input type="tel" id="hp-phone" placeholder="09102117985" class="w-full bg-brand-darker border border-brand-border rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-brand-yellow">
+              </div>
+
+              <div>
+                <label class="text-xs font-bold text-gray-300 uppercase tracking-wider block mb-1">Service Category</label>
+                <select id="hp-service" class="w-full bg-brand-darker border border-brand-border rounded-lg px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-brand-yellow">
+                  <option value="m-ac">AC-DC Motor / Generator Rewind</option>
+                  <option value="d-pee">Electrical Design & Sign and Seal (PEE)</option>
+                  <option value="f-fdas">FDAS & FirePro Installation</option>
+                  <option value="m-term">High Voltage & Low Voltage Termination</option>
+                  <option value="f-cctv">CCTV Installation & Airconditioning</option>
+                  <option value="t-ts">24/7 Troubleshooting & PMS</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="text-xs font-bold text-gray-300 uppercase tracking-wider block mb-1">Location (City / Province)</label>
+                <input type="text" id="hp-location" placeholder="e.g. Batangas, Laguna, Manila, Cavite..." class="w-full bg-brand-darker border border-brand-border rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-brand-yellow">
+              </div>
+
+              <button onclick="handleHomeQuote()" class="w-full py-3.5 rounded-lg yellow-gradient text-black font-extrabold text-sm tracking-wider uppercase hover:brightness-110 transition shadow-lg shadow-brand-yellow/20 flex items-center justify-center">
+                <i data-lucide="zap" class="w-4 h-4 mr-2 fill-black"></i> Compute My Quote
+              </button>
+
+              <div id="hp-msg" class="hidden text-xs text-emerald-400 text-center font-semibold pt-1">
+                ✅ Inquiry sent! Our engineering team will contact you shortly.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- "WE SERVE" Sectors Breakdown -->
+  <section class="py-16 bg-brand-dark border-y border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-brand-yellow text-xs font-bold tracking-widest uppercase">Target Markets</span>
+        <h2 class="text-3xl font-black text-white mt-1">WHO WE SERVE</h2>
+        <div class="w-20 h-1 yellow-gradient mx-auto mt-3 rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Residential -->
+        <div class="bg-brand-card p-8 rounded-2xl border border-brand-border card-border-glow transition">
+          <div class="w-14 h-14 rounded-xl bg-brand-yellow/10 border border-brand-yellow/30 flex items-center justify-center text-brand-yellow mb-6">
+            <i data-lucide="home" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Residential</h3>
+          <p class="text-gray-400 text-sm leading-relaxed mb-4">
+            Safe electrical wiring, breaker panel upgrades, aircon installation & cleaning, home CCTV security, and emergency troubleshooting.
+          </p>
+          <a href="services.html#residential" class="text-xs font-bold text-brand-yellow hover:underline flex items-center">
+            View Residential Services →
+          </a>
+        </div>
+
+        <!-- Commercial -->
+        <div class="bg-brand-card p-8 rounded-2xl border-2 border-brand-yellow/40 shadow-lg shadow-brand-yellow/5">
+          <div class="w-14 h-14 rounded-xl bg-brand-yellow flex items-center justify-center text-black mb-6">
+            <i data-lucide="building-2" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Commercial</h3>
+          <p class="text-gray-400 text-sm leading-relaxed mb-4">
+            Office and retail fit-outs, FDAS fire alarm systems, PEE sign & seal for LGU permits, CCTV surveillance networks, and PMS maintenance.
+          </p>
+          <a href="sign-and-seal.html" class="text-xs font-bold text-brand-yellow hover:underline flex items-center">
+            Explore Commercial Permits & Sign & Seal →
+          </a>
+        </div>
+
+        <!-- Industrial -->
+        <div class="bg-brand-card p-8 rounded-2xl border border-brand-border card-border-glow transition">
+          <div class="w-14 h-14 rounded-xl bg-brand-yellow/10 border border-brand-yellow/30 flex items-center justify-center text-brand-yellow mb-6">
+            <i data-lucide="factory" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Industrial</h3>
+          <p class="text-gray-400 text-sm leading-relaxed mb-4">
+            Heavy AC/DC motor rewinding, LV/HV cable termination, generator stator/rotor rewind, slip-ring repairs, and motor control panels.
+          </p>
+          <a href="industrial-motor-rewinding.html" class="text-xs font-bold text-brand-yellow hover:underline flex items-center">
+            Explore Industrial Rewind Capabilities →
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete 17 Services Section (Interactive Hub) -->
+  <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+      <div>
+        <span class="text-brand-yellow text-xs font-bold tracking-widest uppercase">Expert Electrical Engineering</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white mt-1">OUR 17 CORE SERVICES</h2>
+        <p class="text-gray-400 text-sm mt-2">Every service listed on our official reference flyer, backed by licensed personnel.</p>
+      </div>
+      <a href="services.html" class="mt-4 md:mt-0 text-sm font-bold text-brand-yellow hover:underline flex items-center">
+        Full Technical Specs Page <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+      </a>
+    </div>
+
+    <!-- Quick Services Grid of 17 Items -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      
+      <a href="services.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow group-hover:scale-105 transition"><i data-lucide="zap" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Electrical Installation</h4>
+        </div>
+      </a>
+
+      <a href="fdas-firepro-security.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-red-500/15 flex items-center justify-center text-red-400 group-hover:scale-105 transition"><i data-lucide="bell-ring" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">FDA'S (Fire Alarm)</h4>
+        </div>
+      </a>
+
+      <a href="fdas-firepro-security.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow group-hover:scale-105 transition"><i data-lucide="video" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">CCTV Installation</h4>
+        </div>
+      </a>
+
+      <a href="industrial-motor-rewinding.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow group-hover:scale-105 transition"><i data-lucide="cable" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">LV & HV Termination</h4>
+        </div>
+      </a>
+
+      <a href="industrial-motor-rewinding.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-amber-500/15 flex items-center justify-center text-amber-400 group-hover:scale-105 transition"><i data-lucide="disc" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">AC-DC Motor Rewinding</h4>
+        </div>
+      </a>
+
+      <a href="industrial-motor-rewinding.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-amber-500/15 flex items-center justify-center text-amber-400 group-hover:scale-105 transition"><i data-lucide="refresh-cw" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">LV & HV Rewinding</h4>
+        </div>
+      </a>
+
+      <a href="industrial-motor-rewinding.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow group-hover:scale-105 transition"><i data-lucide="wrench" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Commutator Repair</h4>
+        </div>
+      </a>
+
+      <a href="industrial-motor-rewinding.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow group-hover:scale-105 transition"><i data-lucide="circle-dot" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Slip-Ring Repair</h4>
+        </div>
+      </a>
+
+      <a href="services.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-sky-500/15 flex items-center justify-center text-sky-400 group-hover:scale-105 transition"><i data-lucide="wind" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Airconditioning</h4>
+        </div>
+      </a>
+
+      <a href="sign-and-seal.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-blue-500/15 flex items-center justify-center text-blue-400 group-hover:scale-105 transition"><i data-lucide="git-merge" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Plumbing Design</h4>
+        </div>
+      </a>
+
+      <a href="sign-and-seal.html" class="bg-brand-card p-4 rounded-xl border-2 border-brand-yellow/50 hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-yellow flex items-center justify-center text-black group-hover:scale-105 transition"><i data-lucide="file-check-2" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Sign & Seal (PEE)</h4>
+        </div>
+      </a>
+
+      <a href="emergency-troubleshooting.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-red-500/15 flex items-center justify-center text-red-400 group-hover:scale-105 transition"><i data-lucide="alert-triangle" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Troubleshooting</h4>
+        </div>
+      </a>
+
+      <a href="services.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow group-hover:scale-105 transition"><i data-lucide="shuffle" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Conversion</h4>
+        </div>
+      </a>
+
+      <a href="services.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-yellow/15 flex items-center justify-center text-brand-yellow group-hover:scale-105 transition"><i data-lucide="sliders" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Motor Control</h4>
+        </div>
+      </a>
+
+      <a href="industrial-motor-rewinding.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-amber-500/15 flex items-center justify-center text-amber-400 group-hover:scale-105 transition"><i data-lucide="gauge" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">Generator Stator / Rotor</h4>
+        </div>
+      </a>
+
+      <a href="fdas-firepro-security.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-red-600/20 flex items-center justify-center text-red-500 group-hover:scale-105 transition"><i data-lucide="flame" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">FirePro Installation</h4>
+        </div>
+      </a>
+
+      <a href="emergency-troubleshooting.html" class="bg-brand-card p-4 rounded-xl border border-brand-border hover:border-brand-yellow transition group">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-emerald-500/15 flex items-center justify-center text-emerald-400 group-hover:scale-105 transition"><i data-lucide="clipboard-check" class="w-4 h-4"></i></div>
+          <h4 class="text-sm font-bold text-white">PMS (Preventive Maint.)</h4>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Big Slogan Banner (From Flyer) -->
+  <section class="yellow-gradient py-12 text-black">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+        <div>
+          <div class="flex items-center justify-center md:justify-start space-x-2 mb-2">
+            <i data-lucide="shield-alert" class="w-8 h-8 text-black stroke-[2.5]"></i>
+            <h3 class="text-2xl sm:text-3xl font-black uppercase tracking-tight">YOUR SAFETY. OUR PRIORITY.</h3>
+          </div>
+          <p class="text-sm font-bold uppercase tracking-wider text-black/80">QUALITY WORK. POWERFUL RESULTS.</p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-4">
+          <a href="tel:09102117985" class="px-8 py-3.5 rounded-xl bg-black text-white font-extrabold text-sm tracking-wider uppercase hover:bg-neutral-900 transition shadow-lg flex items-center">
+            <i data-lucide="phone-call" class="w-4 h-4 mr-2 text-brand-yellow"></i> 09102117985
+          </a>
+          <a href="quotation.html" class="px-7 py-3.5 rounded-xl bg-white text-black font-extrabold text-sm tracking-wider uppercase hover:bg-gray-100 transition shadow-lg">
+            Book Site Visit
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legal Credentials Section (From Flyer) -->
+  <section class="py-16 bg-brand-darker border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="bg-brand-slate p-6 rounded-2xl border border-brand-border flex items-center space-x-4">
+          <div class="w-14 h-14 rounded-xl bg-blue-600/10 border border-blue-500/30 flex items-center justify-center text-blue-400 flex-shrink-0">
+            <i data-lucide="landmark" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <h4 class="text-base font-bold text-white uppercase tracking-wider">DTI REGISTERED</h4>
+            <p class="text-xs text-gray-400 mt-1">Legally recognized business name with the Department of Trade and Industry.</p>
+          </div>
+        </div>
+
+        <div class="bg-brand-slate p-6 rounded-2xl border border-brand-border flex items-center space-x-4">
+          <div class="w-14 h-14 rounded-xl bg-emerald-600/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 flex-shrink-0">
+            <i data-lucide="receipt" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <h4 class="text-base font-bold text-white uppercase tracking-wider">BIR REGISTERED</h4>
+            <p class="text-xs text-gray-400 mt-1">Official invoices and tax compliance through the Bureau of Internal Revenue.</p>
+          </div>
+        </div>
+
+        <div class="bg-brand-slate p-6 rounded-2xl border border-brand-border flex items-center space-x-4">
+          <div class="w-14 h-14 rounded-xl bg-amber-600/10 border border-amber-500/30 flex items-center justify-center text-brand-yellow flex-shrink-0">
+            <i data-lucide="award" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <h4 class="text-base font-bold text-white uppercase tracking-wider">NON-VAT REGISTERED</h4>
+            <p class="text-xs text-gray-400 mt-1">Compliant tax identification giving you transparent contractor billing.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-brand-darker border-t border-brand-border py-14 text-sm text-gray-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        
+        <div class="space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-lg yellow-gradient flex items-center justify-center font-black text-black text-xl">NP⚡</div>
+            <div class="text-white font-bold text-base leading-tight">NP's ELECTRICAL SERVICES</div>
+          </div>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Powering Solutions. Delivering Excellence. Safe, reliable, and efficient electrical contracting across the Philippines.
+          </p>
+          <div class="text-xs text-brand-gold font-semibold">
+            DTI & BIR Registered (Non-VAT)
+          </div>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Core Pages</h5>
+          <ul class="space-y-2 text-xs">
+            <li><a href="index.html" class="hover:text-brand-yellow">Home</a></li>
+            <li><a href="services.html" class="hover:text-brand-yellow">All 17 Services</a></li>
+            <li><a href="about.html" class="hover:text-brand-yellow">About NP's</a></li>
+            <li><a href="projects.html" class="hover:text-brand-yellow">Projects & Portfolio</a></li>
+            <li><a href="contact.html" class="hover:text-brand-yellow">Contact & Quote</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Specialized Divisions</h5>
+          <ul class="space-y-2 text-xs">
+            <li><a href="industrial-motor-rewinding.html" class="hover:text-brand-yellow">Motor & Generator Rewinding</a></li>
+            <li><a href="sign-and-seal.html" class="hover:text-brand-yellow">PEE Electrical Sign & Seal</a></li>
+            <li><a href="fdas-firepro-security.html" class="hover:text-brand-yellow">FDAS & FirePro Systems</a></li>
+            <li><a href="emergency-troubleshooting.html" class="hover:text-brand-yellow">24/7 Troubleshooting</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Contact Info</h5>
+          <ul class="space-y-3 text-xs">
+            <li class="flex items-center text-white font-bold">
+              <i data-lucide="phone" class="w-4 h-4 text-brand-yellow mr-2"></i> 09102117985
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="mail" class="w-4 h-4 text-brand-yellow mr-2"></i> nps.electricalservices@gmail.com
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="facebook" class="w-4 h-4 text-blue-400 mr-2"></i> NP's Electrical Services
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-brand-border/60 pt-6 text-center text-xs text-gray-500">
+        © <span id="cr-year"></span> NP's Electrical Services. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Action Bar -->
+  <div class="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-brand-dark/95 backdrop-blur-lg border-t border-brand-border/80 p-2.5 flex items-center justify-between gap-2 shadow-2xl">
+    <a href="tel:09102117985" class="flex-1 py-3 px-2 rounded-lg yellow-gradient text-black font-black text-xs uppercase tracking-wider text-center flex items-center justify-center shadow-lg">
+      <i data-lucide="phone-call" class="w-4 h-4 mr-1.5"></i> Call Now
+    </a>
+    <a href="sms:09102117985" class="flex-1 py-3 px-2 rounded-lg bg-brand-slate text-white border border-brand-border font-bold text-xs uppercase tracking-wider text-center flex items-center justify-center">
+      <i data-lucide="message-square" class="w-4 h-4 mr-1.5 text-brand-yellow"></i> SMS
+    </a>
+    <a href="contact.html" class="py-3 px-3.5 rounded-lg bg-emerald-600 text-white font-bold text-xs uppercase tracking-wider text-center flex items-center justify-center">
+      <i data-lucide="send" class="w-4 h-4"></i>
+    </a>
+  </div>
+
+  <script>
+    lucide.createIcons();
+    document.getElementById('cr-year').textContent = new Date().getFullYear();
+    const mbBtn = document.getElementById('mobile-menu-btn');
+    const mbMenu = document.getElementById('mobile-menu');
+    mbBtn.addEventListener('click', () => mbMenu.classList.toggle('hidden'));
+
+    function handleHomeQuote() {
+      const g = id => encodeURIComponent(document.getElementById(id).value);
+      const name = document.getElementById('hp-name').value, phone = document.getElementById('hp-phone').value;
+      if (!name || !phone) { alert('Please provide your name and phone number.'); return; }
+      window.location.href = `quotation.html?service=${g('hp-service')}&name=${g('hp-name')}&phone=${g('hp-phone')}&loc=${g('hp-location')}`;
+    }
+  </script>
+</body>
+</html>
